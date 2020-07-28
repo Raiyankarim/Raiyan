@@ -133,6 +133,11 @@ hr {
   color: white;
   font-size: 1.2em;
 }
+@media (max-width: 768px) {
+	.navbar-toggle collapsed{
+	float : left;
+	}
+}
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
