@@ -135,13 +135,14 @@ hr {
 }
 @media (max-width: 768px) {
 	.navbar-brand .navbar-toggle collapsed{
-	float : left;
+	float : right;
 	}
-}
+
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
 }
